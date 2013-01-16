@@ -1,0 +1,11 @@
+Width: 970px
+Padding: 15px
+Main: 600px
+Side: 340px
+Side padding: 10px
+Thumb: width 75px
+Text: 230px
+
+background: #000
+highlighted: #292929
+non: #1a1a1a

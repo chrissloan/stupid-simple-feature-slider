@@ -1,0 +1,69 @@
+/* sof: DON'T COPY THIS ------------- */
+html{margin:0;padding:0;border:0}body,h1,h2,h3,h4,h5,h6,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,blockquote,q,th,td,caption,table,div,span,object,iframe,p,pre,a,abbr,acronym,address,code,del,dfn,em,img,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,caption,tbody,tfoot,thead,tr{margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block}
+/* eof: DON'T COPY THIS ------------- */
+
+
+/* sof: USE THIS STUFF BELOW ------------- */
+#feature_slider{
+  background: #000;
+  height: 330px;
+  margin: 0 auto;
+  padding: 15px;
+  width: 970px;
+}
+
+#feature_slider a{
+  color: #fff;
+  text-decoration: none;
+}
+
+#feature_slider #main_feature{
+  display: inline-block;
+  float: left;
+  position: relative;
+  width: 600px;
+}
+
+#feature_slider #main_feature figcaption{
+  background: rgba(0,0,0,0.65);
+  bottom: 20px;
+  padding: 15px 5px;
+  position: absolute;
+  width: 590px;
+}
+
+#feature_slider ul{
+  display: inline-block;
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 370px;
+}
+
+#feature_slider ul li{
+  background: #1a1a1a;
+  list-style: none;
+  height: 80px;
+  margin: 0 0 3px 0;
+  max-height: 80px;
+  padding: 0;
+}
+
+#feature_slider ul li.current{
+  background: #292929;
+}
+
+#feature_slider ul figure{
+  padding: 10px;
+}
+
+#feature_slider ul figcaption{
+  float: right;
+  width: 260px;
+}
+
+#feature_slider ul img{
+  float: left;
+}
+
